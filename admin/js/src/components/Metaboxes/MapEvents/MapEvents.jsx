@@ -270,7 +270,7 @@ const MapEvents = ( { project } ) => {
         </h4>
         <div className="iip-map-admin-mapping__header">
           <div className="iip-map-admin-mapping__warning" style={ { visibility: hasDirtyTab ? 'visible' : 'hidden' } }>
-          * Indicates a tab with unsaved changes. The changes will not affect other tabs until they are saved.
+          * Indicates a tab with unsaved changes or required action.
           </div>
         </div>
         <Tabs
